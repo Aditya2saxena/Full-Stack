@@ -8,12 +8,29 @@
 <body>
     <h2>Contact form</h2>
     <form action="/submit" method="post">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email" required>
+        </div>
+        <div>
+            <label for="Age">Enter the Age:</label>
+            <input type="Number" id="number" placeholder="Enter Age">
+        </div>
+        Choose your profession:
+        <Select name="profession" id="professin">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Business">Business</option>
+        </Select>
+        <div>
+            <label for="Feedback">Give your valuable Feedback</label>
+            <textarea name="Feedback" id="Feedback"></textarea>
+            
+        </div>
         <input type="submit" value="submit">
     </form>
     

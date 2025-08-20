@@ -1,0 +1,28 @@
+*{
+    color:pink;
+}
+h2{
+    color:purple;
+}
+#top heading{
+    text-align: center;
+    background-color: aqua;
+
+}
+.navbar{
+    background-color: white;
+    text-align: left;
+
+}
+.article{
+    color: blue;
+  background-color: lightyellow;
+  font-weight: bold;
+}
+nav:hover{
+    background-color: yellow;
+}
+
+
+
+
